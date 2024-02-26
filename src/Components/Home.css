@@ -1,0 +1,91 @@
+#Home
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 80vh;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #d2d7d4;
+}
+
+
+#First
+{
+    min-width: 500px;
+    flex: 1;
+
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-top: 1.5rem;
+}
+
+#FirstContent
+{
+    padding-left: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+ 
+    max-width: 500px;
+    color: rgb(51, 50, 50);
+}
+
+#FirstContent h2{
+    font-size: 3rem;
+}
+#FirstContent p
+{
+    font-size: .8rem;
+    color: gray;
+   
+}
+
+#FirstContent button
+{
+    width: 8rem;
+    height: 2.3rem;
+    font-size: .9rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    align-self: start;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    
+}
+
+
+#FirstContent section
+{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#FirstContent section span
+{
+    height: 100%;
+    border-right: 1px solid gray;
+    padding-right: 1rem;
+}
+
+
+
+
+#Second
+{
+    min-width: 500px;
+    /* flex: 1; */
+
+    background-image: url("./Media/HomeImg.jpg");
+    background-position: center;
+    background-size: cover;
+}
